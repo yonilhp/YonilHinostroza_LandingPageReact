@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Alert, Button } from "react-bootstrap";
-import CardComponent from "./CardComponent"; // Asegúrate de ajustar la ruta si es necesario
+import CardComponent from "./CardComponent";
 
 const Home = () => {
   return (
@@ -8,8 +8,9 @@ const Home = () => {
       <Navbar bg="dark" expand="lg">
         <div className="container ">
           <Navbar.Brand className="text-light">Start Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
           <div className="container">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link href="#home" className="text-light">
