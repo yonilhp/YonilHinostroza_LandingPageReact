@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Alert, Button } from "react-bootstrap";
-import CardComponent from "./CardComponent";
+import CardComponent from "./CardComponent"; // Asegúrate de ajustar la ruta si es necesario
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
 
           <div className="container">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
+            <Navbar.Collapse id="basic-navbar-nav" className="">
+              <Nav className="mr-auto d-flex justify-content-end w-100">
                 <Nav.Link href="#home" className="text-light">
                   Home
                 </Nav.Link>
